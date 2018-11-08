@@ -24,6 +24,7 @@ body {
 
 .content {
   display: flex;
+  width: 100%;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -31,6 +32,10 @@ body {
   max-width: 45em;
 }
 
+.text {
+  display: flex;
+  flex-direction: column;
+}
 h2 {
   font-size: 3rem;
   font-family: Roboto Condensed, sans-serif;
