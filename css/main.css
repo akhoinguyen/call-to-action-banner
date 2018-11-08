@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
+.banner {
+  max-height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 45em;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: Roboto Condensed, sans-serif;
+}
+
+p {
+  font-size: 1.5rem;
+}
